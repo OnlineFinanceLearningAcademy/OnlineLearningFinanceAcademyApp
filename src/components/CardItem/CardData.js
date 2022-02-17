@@ -4,7 +4,7 @@ const items = [
 
     {   
         id:1,
-        name:"Equity fundamentals – Corporate finance",
+        name:"Equity Fundamentals – Corporate Finance",
         price:400,
         image:process.env.PUBLIC_URL + "img/7.jfif",
         category: 'finance',

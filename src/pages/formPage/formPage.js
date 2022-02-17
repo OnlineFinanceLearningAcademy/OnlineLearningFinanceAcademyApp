@@ -17,7 +17,7 @@ const Compra = () =>{
         <div className=' containerr'>
             <div className='row-1'></div>
             <h5>Once you payed you be able to complete the form to get your course!</h5>
-            <div className='button-link'> <a className="button-link-a" href={item.link}>Pay here</a> </div>
+            <div className='button-link'> <a className="button-link-a" target="_blank"  rel="noreferrer" href={item.link}>Pay here</a> </div>
 
             <Formulario/>
         </div>

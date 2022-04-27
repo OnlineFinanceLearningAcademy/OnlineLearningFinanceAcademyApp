@@ -76,7 +76,7 @@ const items = [
         image: process.env.PUBLIC_URL + "img/9.jpeg",
         category: 'psichology',
         description: 'Students acquire theoretical and practical inside into financial modeling and market dynamics. This course covers everything about business valuation and its effects on price changes and market regimes. Students take a deep dive into the “fair value” of a company, utilizing the best and most complete practices in the industry. Building on top of this, student then learn the intricate relationship between valuation and market fluctuations; and how different narratives can change corporate valuation; and vice versa. Learn the utmost pristine insights from industry leaders and our expert teachers.',
-        link: "https://buy.stripe.com/3cs5nk5Wi62depW14n"
+        link: "https://buy.stripe.com/9AQeXU1G23U56Xu7sO"
     
     }
     ]

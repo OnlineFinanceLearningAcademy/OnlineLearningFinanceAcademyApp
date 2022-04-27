@@ -43,7 +43,6 @@ const Cart = () =>{
                                 <div onClick={()=>removeFromCart(prod)}>
                                     <Button  className="remove-button">remove</Button>
                                 </div>
-                            
                         </div>
                     )
                 })}
@@ -59,9 +58,7 @@ const Cart = () =>{
                     </NavLink>
                     </div>
                     <div className='button-pay-cont'>
-                        <Link to={`/cart/pago/${cart[0].id}`} style={{ textDecoration: 'none',color: 'black'}}>
-                            <i className='button-pay'>Pay here</i>
-                        </Link>
+                        <div className='button-link'> <a style={{ textDecoration: 'none',color: 'black'}} className="button-link-a" target="_blank"  rel="noreferrer" href={cart[0].link}>Pay here</a> </div>
                     </div>
                 </div>
         </div>

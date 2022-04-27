@@ -49,6 +49,7 @@ const ItemListContainer = ()=>{
                   title={prod.name} 
                   price={prod.price}
                   id={prod.id}
+                  nameToNavigate={prod.nameToNavigate}
                   />
               )
             }
